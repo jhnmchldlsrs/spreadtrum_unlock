@@ -1,4 +1,4 @@
-import * as fastboot from "../dist/fastboot.mjs";
+import * as fastboot from "assets/dist/js/fastboot.mjs";
 
 let device = new fastboot.FastbootDevice();
 
