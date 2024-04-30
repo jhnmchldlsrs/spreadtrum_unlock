@@ -1,6 +1,5 @@
-import * as fastboot from "./assets/dist/js/fastboot.mjs";
-
-let device = new fastboot.FastbootDevice();
+import {FastbootDevice, FastbootError} from "./assets/dist/js/fastboot.mjs";
+let device = new FastbootDevice();
 
 function connect() {
     alert("hi");
