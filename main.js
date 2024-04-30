@@ -1,7 +1,7 @@
-import {FastbootDevice, FastbootError} from "./assets/dist/js/fastboot.mjs";
-let device = new FastbootDevice();
+let device = new exports.FastbootDevice();
 
 function connect() {
+    console.log("hi");
     alert("hi");
     try {
         await device.connect();
