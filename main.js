@@ -1,8 +1,9 @@
-import {FastbootDevice, FastbootError} from "./fastboot.js";
+import * as fastboot from "../dist/fastboot.mjs";
 
-const device = new FastbootDevice();
+let device = new fastboot.FastbootDevice();
 
 function connect() {
+    alert("hi");
     try {
         await device.connect();
         // document.querySelector("#unlock-button").disabled = false;
